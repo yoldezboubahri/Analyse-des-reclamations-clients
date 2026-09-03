@@ -1,0 +1,56 @@
+# ------------------------------------------------------------------
+# Python
+# ------------------------------------------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# ------------------------------------------------------------------
+# Environnements
+# ------------------------------------------------------------------
+.venv/
+venv/
+env/
+.conda/
+
+# ------------------------------------------------------------------
+# Jupyter
+# ------------------------------------------------------------------
+.ipynb_checkpoints/
+
+# ------------------------------------------------------------------
+# Données — potentiellement confidentielles (réclamations clients réelles)
+# Ne JAMAIS pousser ce dossier sur un repo public sans anonymisation
+# et autorisation explicite. Décommente/adapte si tes données sont safe.
+# ------------------------------------------------------------------
+data/
+
+# ------------------------------------------------------------------
+# Modèles — poids trop lourds pour Git classique
+# Distribués séparément via Google Drive (voir README.md)
+# ------------------------------------------------------------------
+models/**/*.bin
+models/**/*.safetensors
+models/**/pytorch_model*
+models/**/optimizer.pt
+models/**/*.ckpt
+models/**/checkpoint-*/
+
+# ------------------------------------------------------------------
+# Streamlit / app
+# ------------------------------------------------------------------
+.streamlit/secrets.toml
+
+# ------------------------------------------------------------------
+# Système / éditeur
+# ------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
+
+*.zip
