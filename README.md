@@ -41,7 +41,7 @@ text_mining/
 ### 1. Cloner le dépôt
 
 ```bash
-git clone https://github.com/yoldezboubahri/Analyse-des-r-clamations-clients/tree/main
+git clone https://github.com/yoldezboubahri/Analyse-des-reclamations-clients/tree/main
 cd text_mining
 ```
 
