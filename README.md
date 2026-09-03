@@ -116,6 +116,7 @@ Si l'archive s'est extraite dans un sous-dossier imbriqué (ex. `models\sentimen
 
 ```bash
 conda activate text
+cd Analyse-des-reclamations-clients
 cd app
 python -m streamlit run app.py
 ```
