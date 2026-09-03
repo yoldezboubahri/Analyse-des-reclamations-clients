@@ -1,9 +1,7 @@
 # Attijari bank — Analyse Client (Sentiment & Risque de Churn)
 
-Application Streamlit d'analyse de réclamations clients multilingues (français, arabe, arabizi tunisien) : classification du sentiment et estimation du risque d'attrition (churn), via un pipeline en cascade de deux modèles XLM-RoBERTa fine-tunés.
+Application Streamlit d'analyse de réclamations clients multilingues (français, arabe et en dialecte tunisien) : classification du sentiment et estimation du risque d'attrition (churn), via un pipeline en cascade de deux modèles XLM-RoBERTa fine-tunés.
 
-Projet de fin d'études (PFE) — ESSAI (École Supérieure des Sciences et Techniques d'Ingénieurs).
-.
 
 ## Structure du projet
 
@@ -146,8 +144,8 @@ Si présentes dans le fichier importé (sous plusieurs variantes de nom), ces co
 
 Le dossier `notebooks/` documente le pipeline complet, du nettoyage brut au fine-tuning :
 
-1. `01_exploration_nettoyage.ipynb` — nettoyage multi-étapes, détection de langue, NER français
-2. `02_creation_des_variables_cibles.ipynb` — labeling hybride (zero-shot + lexique) pour Sentiment et Churn Risk
+1. `01_exploration_nettoyage.ipynb` — nettoyage multi-étapes et détection de langue
+2. `02_creation_des_variables_cibles.ipynb` — labeling pour Sentiment et Churn Risk
 3. `03_split_train_val_test.ipynb` — split stratifié par groupe (`template_id`) pour éviter les fuites de données
 4. `04_finetuning_sentiments.ipynb` — fine-tuning complet de XLM-RoBERTa-base (sentiment)
 5. `05_finetuning_churnrisks.ipynb` — fine-tuning du modèle de risque de churn (sous-ensemble Négatif)
