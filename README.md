@@ -69,8 +69,8 @@ pip install -r requirements.txt
 
 Les poids fine-tunés (~1.1 Go chacun) ne sont pas versionnés sur Git. Télécharge les deux archives depuis Google Drive :
 
-- **Modèle Sentiment (XLM-R)** : `<https://drive.google.com/file/d/1MH71BEcOo3M6TKGshQKL5oX0H-Xsa0OP/view?usp=drive_link>` → `sentiment_xlmr.zip`
-- **Modèle Churn Risk (XLM-R)** : `<https://drive.google.com/file/d/1OSKcz2F_TZbheifL0KPBjDYa2tHwlWmB/view?usp=drive_link>` → `churnrisk_xlmr_negatif.zip`
+- **Modèle Sentiment (XLM-R)** : `< https://drive.google.com/file/d/1MH71BEcOo3M6TKGshQKL5oX0H-Xsa0OP/view?usp=drive_link >` → `sentiment_xlmr.zip`
+- **Modèle Churn Risk (XLM-R)** : `< https://drive.google.com/file/d/1OSKcz2F_TZbheifL0KPBjDYa2tHwlWmB/view?usp=drive_link >` → `churnrisk_xlmr_negatif.zip`
 
 Puis extrais-les à la racine du projet, dans `models/`, de façon à obtenir exactement cette arborescence (4 fichiers par modèle, sans sous-dossier `checkpoint-*` ni `training_args.bin`) :
 
